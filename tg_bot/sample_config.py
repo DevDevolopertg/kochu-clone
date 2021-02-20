@@ -15,7 +15,7 @@ class Config(object):
     OWNER_USERNAME = "YOUR USERNAME HERE"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = postgres://lqqnvkmj:Ef3-HYUlszQd3PQELt3jnzFSpHb6myeP@ziggy.db.elephantsql.com:5432/lqqnvkmj
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     LOAD = []
     NO_LOAD = ['translation', 'rss']
